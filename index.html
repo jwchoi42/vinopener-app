@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinopener</title>
+    <link rel="stylesheet" type="text/css" href="button-style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; 
+        }
+        
+    </style>
 </head>
+
+
+<div class=""></div>
 <body>
-    Vinopener
+    <h1>Vinopener</h1>
+    <img src="/app_icon_logo.jpg" alt="" width=200 height=200>
     <a href="/app-arm64-v8a-release.apk" download="vinopener.apk">
-        <button>Download</button>
+        <button class="pushable">
+            <span class="shadow"></span>
+            <span class="edge"></span>
+            <span class="front">
+              Download
+            </span>
+          </button>
     </a>
 </body>
 </html>
